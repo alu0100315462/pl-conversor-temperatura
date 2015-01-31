@@ -1,6 +1,4 @@
-Universidad de la Laguna
-========================
-#Grado en Ingeniería Informática
+#Grado en Ingeniería Informática ULL
 ##Procesadores de Lenguajes
-#Primera Práctica:
+#Práctica Conversor de Temperatura:
 Conversor para pasar de grados Celsius a Farenheit y viceversa en el lenguaje JavaScript.
