@@ -3,7 +3,7 @@ function calculate() {
   var result;
   var original       = document.getElementById("original");
   var temp = original.value;
-  var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
+  var regexp = /^\s*([-+]?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)\s*([cCfF])\s*$/;
   
   var m = temp.match(regexp);
   
