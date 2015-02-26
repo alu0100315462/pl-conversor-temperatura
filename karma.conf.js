@@ -19,7 +19,7 @@ module.exports = function(config) {
     },
     // list of files / patterns to load in the browser
     files: [
-      'temperatura.js',
+      'temperature.js',
       'tests/*.js',
       'tests/index.html'
       
