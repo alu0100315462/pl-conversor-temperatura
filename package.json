@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "xdg-open ./tests/index.html"
+    "test": "open ./tests/index.html"
   },
   "repository": {
     "type": "git",
