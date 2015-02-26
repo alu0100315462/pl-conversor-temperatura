@@ -17,12 +17,18 @@ module.exports = function(config) {
         ui: 'tdd'
       }
     },
+    
+    // preprocess matching files before serving them to the browser
+    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
+    preprocessors: {
+      'tests/index.html': ['html2js']
+    },
+
     // list of files / patterns to load in the browser
     files: [
-      'temperature.js',
+      'tests/index.html',
       'tests/*.js',
-      'tests/index.html'
-      
+      'temperature.js'
     ],
 
 
@@ -32,11 +38,6 @@ module.exports = function(config) {
     ],
 
 
-    // preprocess matching files before serving them to the browser
-    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-      'tests/index.html': ['html2js']
-    },
 
 
     // test results reporter to use
